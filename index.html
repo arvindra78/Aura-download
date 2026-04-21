@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aura Music Player Download Panel</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <main class="stage">
+      <section class="download-panel" id="download-panel">
+        <div class="panel-grid">
+          <div class="panel-copy">
+            <div class="app-head">
+              <div class="app-icon" aria-hidden="true">
+                <div class="app-icon-core">
+                  <img src="logo.png" alt="Aura Music Player logo" />
+                </div>
+              </div>
+
+              <div class="app-meta">
+                <h1>Aura Music Player</h1>
+                <p class="version-text">v3.2.0</p>
+              </div>
+            </div>
+
+            <p class="tagline">Minimal. Offline. Pure Music Experience.</p>
+
+            <div class="action-row">
+              <a
+                class="button button-primary"
+                href="https://github.com/arvindra78/AuraMusicPlayer/releases/download/Aura_music_player_v3.2.0/Aura.Music.Player.3.2.Setup.3.2.0.exe"
+                download
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 3a1 1 0 0 1 1 1v8.59l2.3-2.29a1 1 0 1 1 1.4 1.41l-4 3.99a1 1 0 0 1-1.4 0l-4-3.99a1 1 0 1 1 1.4-1.41L11 12.59V4a1 1 0 0 1 1-1Zm-7 14a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"
+                  />
+                </svg>
+                <span>Download for Windows (.exe)</span>
+              </a>
+
+              <a
+                class="button button-secondary"
+                href="https://github.com/arvindra78/AuraMusicPlayer"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>View on GitHub</span>
+              </a>
+            </div>
+
+            <p class="info-line">Windows 10/11 &bull; ~120 MB &bull; Works Offline &bull; Flask + Electron</p>
+            <p class="trust-line">No tracking &bull; Safe &bull; Lightweight</p>
+          </div>
+
+          <div class="panel-preview">
+            <div class="preview-grid">
+              <img
+                class="preview-image preview-image-main"
+                src="assets/images/aura-main.png"
+                alt="Aura Music Player desktop preview"
+              />
+              <img
+                class="preview-image preview-image-secondary"
+                src="assets/images/aura-purple.png"
+                alt="Aura Music Player alternate theme preview"
+              />
+              <img
+                class="preview-image preview-image-secondary"
+                src="assets/images/aura-mini.png"
+                alt="Aura Music Player mini player preview"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
