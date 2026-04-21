@@ -215,32 +215,6 @@ body {
   object-fit: cover;
 }
 
-.seo-section {
-  width: min(1120px, 100%);
-  margin-top: 28px;
-}
-
-.seo-copy {
-  max-width: 760px;
-}
-
-.seo-copy h2 {
-  margin: 0 0 14px;
-  font-size: clamp(1.4rem, 2.8vw, 2rem);
-  line-height: 1.1;
-  letter-spacing: -0.03em;
-}
-
-.seo-copy p {
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.8;
-}
-
-.seo-copy p + p {
-  margin-top: 14px;
-}
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -272,10 +246,6 @@ body {
   .panel-grid {
     padding: 24px;
     gap: 28px;
-  }
-
-  .seo-section {
-    margin-top: 20px;
   }
 
   .preview-grid {
