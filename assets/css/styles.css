@@ -49,12 +49,7 @@ body {
   box-shadow: var(--shadow);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  opacity: 0;
-  transform: translateY(18px);
-}
-
-.app-ready .download-panel {
-  animation: fadeInUp 0.7s ease forwards;
+  animation: fadeInUp 0.7s ease both;
 }
 
 .panel-grid {
